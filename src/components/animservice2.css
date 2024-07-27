@@ -1,0 +1,39 @@
+.container3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .effect3 {
+    position: absolute;
+    margin: 0;
+    top: 60%;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    z-index: 3;
+    color: #e35270; /* Main pink color */
+  }
+  
+  .effect3 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .text3 {
+    position: absolute; /* Enable absolute positioning */
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #F0386B; /* Dark pink color */
+  font-weight: 100;
+  bottom: 100%; /* Start from lower part of the container */
+  z-index: 3;
+  opacity: 0; /* Start as invisible */
+  }
+  
+ 
+ 
+ 
+  
+ 

@@ -5,29 +5,35 @@ import { AccordionDemo } from './components/AccordionDemo';
 import Header from './components/Header';
 
 import logo from './assests/logo.png'
- 
+import ServiceAnim1 from './components/ServiceAnim1';
+import ServiceAnim2 from './components/ServiceAnim2';
+import ServiceAnim3 from './components/ServiceAnim3';
+import Effect3 from './components/Effect3';
+
+
 function App() {
+
   return (
     <>
-    <div className="">
-
-      
-    </div>
       <Header />
 
-      <main>
-        <section className="relative   ">
-          <div className=" -mt-[40rem]  flex  flex-col items-center justify-center  ">
-            <span className="text-[#e35270] mb-12 text-6xl">01</span>
-            <h1 className="text-[#e35270] my-4 text-3xl text-center">Top-tier management agency elevating digital content creators</h1>
-            <span className="text-[#e35270]  my-12 text-6xl">02</span>
-            <h1 className="text-[#e35270] my-4 text-3xl text-center">Tailored strategies and expert support to enhance visibility, engagement, and earnings</h1>
-            <span className="text-[#e35270]  my-12 text-6xl ">03</span>
-            <h1 className="text-[#e35270] my-4 mb-16 text-3xl text-center">Transforming creativity into exceptional success in the digital space</h1>
+      <main >
+        <section>
 
-            <a href="#contact-section" className="social-btn  mb-8">Contact Us</a>
+          <ServiceAnim1 />
+
+          <div className="mt-96">
+            <ServiceAnim2 />
 
           </div>
+
+          <div className="mt-96 mb-40 anim3">
+            <ServiceAnim3 />
+
+          </div>
+
+
+
 
         </section>
 
