@@ -84,27 +84,27 @@ function App() {
 
 
         </section>
+        <div className=" px-48   text-center pt-24 pb-6 ">
 
+
+<div className="flex justify-between gap-28">
+  <div className="flex flex-col">
+    <h2 className="text-[#e35270] text-4xl font-semibold text-nowrap">PIXIE MGMT</h2>
+    <p className="text-[#e35270] xl:text-2xl text-[1.2rem]">Copyright © 2024 Pixie MGMT</p>
+  </div>
+  <div className="flex flex-col">
+    <h5 className="text-[#e35270]  text-3xl  font-semibold mb-4 text-nowrap">Follow On</h5>
+    <a className="text-[#e35270] text-2xl" href="">Instagram</a>
+    <a className="text-[#e35270] text-2xl my-3" href="">Twitter</a>
+    <a className="text-[#e35270] text-2xl" href="mailto:">Email</a>
+  </div>
+</div>
+
+</div>
       </main>
 
 
-      <footer className=" px-48   text-center pt-24 pb-6 ">
-
-
-        <div className="flex justify-between gap-28">
-          <div className="flex flex-col">
-            <h2 className="text-[#e35270] text-4xl font-semibold text-nowrap">PIXIE MGMT</h2>
-            <p className="text-[#e35270] xl:text-2xl text-[1.2rem]">Copyright © 2024 Pixie MGMT</p>
-          </div>
-          <div className="flex flex-col">
-            <h5 className="text-[#e35270]  text-3xl  font-semibold mb-4 text-nowrap">Follow On</h5>
-            <a className="text-[#e35270] text-2xl" href="">Instagram</a>
-            <a className="text-[#e35270] text-2xl my-3" href="">Twitter</a>
-            <a className="text-[#e35270] text-2xl" href="mailto:">Email</a>
-          </div>
-        </div>
-
-      </footer>
+  
     </>
   );
 }
