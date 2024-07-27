@@ -334,23 +334,23 @@ input::placeholder {
 }
 @media screen and (max-width: 430px) {
   .about-section {
-    margin-top: -64rem;
+    margin-top: -40rem;
   }
 }
 
 @media screen and (max-width: 390px) {
   .about-section {
-    margin-top: -47rem;
+    margin-top: -75rem;
   }
 }
 @media screen and (max-width: 393px) {
   .about-section {
-    margin-top: -64rem;
+    margin-top: -38rem;
   }
 }
 @media screen and (max-width: 375px) {
   .about-section {
-    margin-top: -45rem;
+    margin-top: -40rem;
     
   }
   .about-service {
