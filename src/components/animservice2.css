@@ -46,7 +46,7 @@
   .item {
   background-color: #F4E0E1;   
     width: 100%; /* Full width */
-    height: 0; /* Start with zero height */
+    height: 100%; /* Start with zero height */
     z-index: 0;
     transition: height 0.85s ease-out; /* Transition for animation */
   }

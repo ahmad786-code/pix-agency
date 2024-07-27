@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    
   }
   
   .effect4 {
@@ -30,6 +31,7 @@
   bottom: 100%; /* Start from lower part of the container */
   z-index: 3;
   opacity: 0; /* Start as invisible */
+  bottom: 10%;
   }
   
  
@@ -46,7 +48,7 @@
   .item {
     background-color: #F4E0E1;   
     width: 100%; /* Full width */
-    height: 0; /* Start with zero height */
+    height: 100%; /* Start with zero height */
     z-index: 0;
     transition: height 0.85s ease-out; /* Transition for animation */
   }

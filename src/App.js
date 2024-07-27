@@ -24,7 +24,7 @@ function App() {
 
         </div>
 
-        <div className="  mb-24  ">
+        <div className=" -pb-[0.5rem]">
           <ServiceAnim3 />
 
         </div>
@@ -33,10 +33,10 @@ function App() {
 
 
       </section>
-      <main >
+      <main  >
 
-
-        <section className=" relative pt-24 pb-48">
+{/* pb-48 */}
+        <section className=" pt-24 pb-44 "> 
           <h2 className="text-[#e35270] text-center  text-4xl font-semibold uppercase">services</h2>
 
 
@@ -55,7 +55,7 @@ function App() {
 
           <div className="contact-title">
 
-            <h2 className="contact text-[#e35270] text-4xl font-semibold uppercase ">Reach new heights</h2>
+            <h2 className="contact text-[#FFF] text-4xl font-semibold uppercase ">Reach new heights</h2>
 
 
 
@@ -89,14 +89,14 @@ function App() {
 
           <div className="flex justify-between gap-28">
             <div className="flex flex-col">
-              <h2 className="text-[#ffd0dc] text-4xl font-semibold text-nowrap">PIXIE MGMT</h2>
-              <p className="text-[#ffd0dc] xl:text-2xl text-[1.2rem]">Copyright © 2024 Pixie MGMT</p>
+              <h2 className="text-[#fff] text-4xl font-semibold text-nowrap">PIXIE MGMT</h2>
+              <p className="text-[#fff] xl:text-2xl text-[1.2rem]">Copyright © 2024 Pixie MGMT</p>
             </div>
             <div className="flex flex-col">
-              <h5 className="text-[#ffd0dc]  text-3xl  font-semibold mb-4 text-nowrap">Follow On</h5>
-              <a className="text-[#ffd0dc] text-2xl" href="">Instagram</a>
-              <a className="text-[#ffd0dc] text-2xl my-3" href="">Twitter</a>
-              <a className="text-[#ffd0dc] text-2xl" href="mailto:">Email</a>
+              <h5 className="text-[#fff]  text-3xl  font-semibold mb-4 text-nowrap">Follow On</h5>
+              <a className="text-[#fff] text-2xl" href="">Instagram</a>
+              <a className="text-[#fff] text-2xl my-3" href="">Twitter</a>
+              <a className="text-[#fff] text-2xl" href="mailto:">Email</a>
             </div>
           </div>
 
