@@ -332,10 +332,20 @@ input::placeholder {
     margin-top: -70rem;
   }
 }
+@media screen and (max-width: 430px) {
+  .about-section {
+    margin-top: -64rem;
+  }
+}
 
 @media screen and (max-width: 390px) {
   .about-section {
     margin-top: -47rem;
+  }
+}
+@media screen and (max-width: 393px) {
+  .about-section {
+    margin-top: -64rem;
   }
 }
 @media screen and (max-width: 375px) {
