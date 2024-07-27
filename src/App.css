@@ -33,7 +33,7 @@ body {
 
 
 main {
-  background-image: url(../src/assests/bg.jpeg);
+  background-image: url(../src/assests/bg2.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -243,7 +243,7 @@ input::placeholder {
   }
   .text-box { width: 100%;
   }
-  footer {
+  .footer {
     padding-left: 3rem !important /* 192px */;
     padding-right: 3rem !important /* 192px */;
   }
@@ -313,7 +313,12 @@ input::placeholder {
 }
 @media screen and (max-width: 430px) {
   .about-section {
-    margin-top: -75rem;
+    margin-top: -45rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-section {
+    margin-top: -45rem;
   }
 }
 
@@ -322,15 +327,24 @@ input::placeholder {
     margin-top: -70rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .about-section {
+    margin-top: -70rem;
+  }
+}
 
 @media screen and (max-width: 390px) {
   .about-section {
-    margin-top: -66rem;
+    margin-top: -47rem;
   }
 }
 @media screen and (max-width: 375px) {
   .about-section {
-    margin-top: -50rem;
+    margin-top: -45rem;
+    
+  }
+  .about-service {
+    padding-bottom:  1rem;
   }
 }
  

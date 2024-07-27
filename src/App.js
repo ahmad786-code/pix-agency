@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <section className='-mt-[60rem] about-section'>
+      <section className='-mt-[40rem] about-section'>
 
         <ServiceAnim1 />
 
@@ -24,7 +24,7 @@ function App() {
 
         </div>
 
-        <div className=" -pb-[0.5rem]">
+        <div className=" -pb-[0.5rem] about-service">
           <ServiceAnim3 />
 
         </div>
@@ -33,11 +33,11 @@ function App() {
 
 
       </section>
-      <main  >
+      <main  className='-z-50'>
 
-{/* pb-48 */}
-        <section className=" pt-24 pb-44 "> 
-          <h2 className="text-[#e35270] text-center  text-4xl font-semibold uppercase">services</h2>
+
+        <section className="   pt-96 ">
+          <h2 className="text-[#FFF] text-center  text-4xl font-semibold uppercase">services</h2>
 
 
           <div className="flex items-center justify-center">
@@ -45,7 +45,7 @@ function App() {
           </div>
           <div className="flex flex-col items-center justify-center relative mt-36">
 
-            <div className="border-[1px] border-solid border-[#e35270] w-[36rem] absolute"></div>
+            <div className="border-[1px] border-solid border-[#fff] w-[36rem] absolute"></div>
 
           </div>
         </section>
@@ -84,10 +84,10 @@ function App() {
 
 
         </section>
-        <div className=" px-48   text-center pt-24 pb-6 ">
+        <div className=" px-48   text-center pt-24 pb-6 footer">
 
 
-          <div className="flex justify-between gap-28">
+          <div className="flex justify-between gap-28 ">
             <div className="flex flex-col">
               <h2 className="text-[#fff] text-4xl font-semibold text-nowrap">PIXIE MGMT</h2>
               <p className="text-[#fff] xl:text-2xl text-[1.2rem]">Copyright © 2024 Pixie MGMT</p>
