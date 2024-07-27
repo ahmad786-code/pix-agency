@@ -8,25 +8,12 @@ import './animservice2.css'
 function ServiceAnim2() {
   const [animationPlayed, setAnimationPlayed] = useState(false);
 
+  
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY + window.innerHeight;
-      const animElement = document.querySelector('.container3');
-      // Check if the element is visible and if the animation hasn't been played
-      if (animElement && scrollPosition > animElement.offsetTop && !animationPlayed) {
-        playAnimation();
-        setAnimationPlayed(true);  // Set this to true to prevent reanimation
-      }
-    };
+        
 
-    // Register the scroll event listener
-    window.addEventListener('scroll', handleScroll);
-
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [animationPlayed]);  // Add animationPlayed as a dependency to re-bind only if needed
+    playAnimation();
+}, []);  
 
   const playAnimation = () => {
     let tl = anime.timeline({
@@ -76,7 +63,7 @@ function ServiceAnim2() {
           translateZ: 0,
           easing: "easeOutExpo",
           duration: 1350,
-            delay: (el, i) => 70 * i
+            delay: (el, i) => 30 * i
         }, 1500);
     }
   };
