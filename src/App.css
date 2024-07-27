@@ -345,7 +345,7 @@ input::placeholder {
 }
 @media screen and (max-width: 393px) {
   .about-section {
-    margin-top: -38rem;
+    margin-top: -56rem;
   }
 }
 @media screen and (max-width: 375px) {
