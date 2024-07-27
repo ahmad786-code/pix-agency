@@ -73,7 +73,7 @@ function ServiceAnim1() {
                 translateZ: 0,
                 easing: "easeOutExpo",
                 duration: 1350,
-                // delay: (el, i) => 70 * i
+                  delay: (el, i) => 70 * i
               }, 1500);
           }
     };
