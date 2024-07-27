@@ -173,7 +173,7 @@ input {
   background-color: transparent;
   outline: none;
   border: none;
-  color: #e35270;
+  color: #ffd0dc;
   border-bottom: 1px solid #ccc;
   padding: 2rem 0rem;
   transition: all .5s;
@@ -200,7 +200,7 @@ input[type="button"] {
 
 
 input::placeholder {
-  color: #e35270;
+  color: #ffd0dc;
   font-size: 1.1rem;
 
 }
