@@ -24,7 +24,7 @@ function ServiceAnim2() {
     tl.add({
       targets: 'section .item',
       height: '100%',
-      backgroundColor: '#F6A9BD',
+       backgroundColor: '#F6A9BD',
       // delay: anime.stagger(100)
     });
 
@@ -32,12 +32,12 @@ function ServiceAnim2() {
       targets: 'section .item',
       // delay: anime.stagger(70),
       height: '97%',
-      backgroundColor: '#F4E0E1'
+       backgroundColor: '#F4E0E1'
     });
 
     tl.add({
       targets: 'section .item',
-      backgroundColor: '#FFFFFF',
+       backgroundColor: '#FFFFFF',
       // delay: anime.stagger(50, { from: 'center' })
     });
 

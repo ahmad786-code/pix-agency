@@ -15,7 +15,7 @@ function AnimatedComponent() {
     tl.add({
       targets: 'section .item',
       height: '100%',
-      backgroundColor: '#F6A9BD',
+     backgroundColor: '#F6A9BD',
       // delay: anime.stagger(100)
     });
 
@@ -28,7 +28,7 @@ function AnimatedComponent() {
 
     tl.add({
       targets: 'section .item',
-      backgroundColor: '#FFFFFF',
+     backgroundColor: '#FFFFFF',
       // delay: anime.stagger(50, { from: 'center' })
     });
 

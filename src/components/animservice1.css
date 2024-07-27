@@ -42,7 +42,7 @@
   }
   
   .item {
-    background-color: #F4E0E1; /* Light pink color */
+     background-color: #F4E0E1;   
     width: 100%; /* Full width */
     height: 0; /* Start with zero height */
     z-index: 0;

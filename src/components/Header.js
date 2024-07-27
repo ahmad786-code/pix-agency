@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className="header">
 
-            <nav className="navbar">
+            <nav className="navbar mb-12">
                 <div className="img-logo ">
                     <img src={logo} alt="logo" className="logo-img" />
                 </div>
@@ -27,7 +27,7 @@ const Header = () => {
 
                 </div>
             </nav>
-            <div className="w-screen">
+            <div className="w-screen ">
             <AnimatedComponent />
 
             </div>

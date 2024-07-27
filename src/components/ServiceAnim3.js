@@ -37,7 +37,7 @@ function ServiceAnim3() {
     
         tl.add({
           targets: 'section .item',
-          backgroundColor: '#FFFFFF',
+            backgroundColor: '#FFFFFF',
           // delay: anime.stagger(50, { from: 'center' })
         });
     

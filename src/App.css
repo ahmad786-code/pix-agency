@@ -21,17 +21,22 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+   
 }
 
 body {
   font-family: 'Kanit', sans-serif;  
- 
+  
   
   
 }
 
 
-
+main {
+  background-image: url(../src/assests/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
 
 /* utlity */
 a {
@@ -306,7 +311,28 @@ input::placeholder {
     max-width: 600px;
   }
 }
+@media screen and (max-width: 430px) {
+  .about-section {
+    margin-top: -75rem;
+  }
+}
 
+@media screen and (max-width: 414px) {
+  .about-section {
+    margin-top: -70rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .about-section {
+    margin-top: -66rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about-section {
+    margin-top: -50rem;
+  }
+}
  
 /* ::-webkit-scrollbar {
  display: none;
@@ -332,3 +358,5 @@ section {
   width: 100%;
    
 }
+
+ 

@@ -4,11 +4,10 @@ import { Menu } from 'lucide-react';
 import { AccordionDemo } from './components/AccordionDemo';
 import Header from './components/Header';
 
-import logo from './assests/logo.png'
 import ServiceAnim1 from './components/ServiceAnim1';
 import ServiceAnim2 from './components/ServiceAnim2';
 import ServiceAnim3 from './components/ServiceAnim3';
- 
+
 
 
 function App() {
@@ -16,26 +15,26 @@ function App() {
   return (
     <>
       <Header />
+      <section className='-mt-[60rem] about-section'>
 
+        <ServiceAnim1 />
+
+        <div className=" ">
+          <ServiceAnim2 />
+
+        </div>
+
+        <div className="">
+          <ServiceAnim3 />
+
+        </div>
+
+
+
+
+      </section>
       <main >
-        <section className='-mt-[60rem]'>
 
-          <ServiceAnim1 />
-
-          <div className=" ">
-            <ServiceAnim2 />
-
-          </div>
-
-          <div className="  mb-40  ">
-            <ServiceAnim3 />
-
-          </div>
-
-
-
-
-        </section>
 
         <section className=" relative pt-24 pb-48">
           <h2 className="text-[#e35270] text-center  text-4xl font-semibold uppercase">services</h2>
