@@ -18,7 +18,7 @@ function App() {
       <Header />
 
       <main >
-        <section>
+        <section className='-mt-[60rem]'>
 
           <ServiceAnim1 />
 

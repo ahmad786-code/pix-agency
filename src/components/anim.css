@@ -36,7 +36,7 @@
   .anim {
     display: flex; /* Changed from grid to flex for vertical alignment */
     flex-direction: column; /* Align children vertically */
-    height: 20vh; /* Adjust height to fill the viewport */
+    height: 100vh; /* Adjust height to fill the viewport */
     width: 100%; /* Full width */
   }
   
