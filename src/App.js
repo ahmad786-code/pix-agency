@@ -8,7 +8,7 @@ import logo from './assests/logo.png'
 import ServiceAnim1 from './components/ServiceAnim1';
 import ServiceAnim2 from './components/ServiceAnim2';
 import ServiceAnim3 from './components/ServiceAnim3';
-import Effect3 from './components/Effect3';
+ 
 
 
 function App() {
@@ -22,12 +22,12 @@ function App() {
 
           <ServiceAnim1 />
 
-          <div className="mt-96">
+          <div className=" ">
             <ServiceAnim2 />
 
           </div>
 
-          <div className="mt-96 mb-40 anim3">
+          <div className="  mb-40  ">
             <ServiceAnim3 />
 
           </div>

@@ -35,5 +35,22 @@
  
  
  
+   
+  .anim {
+    display: flex; /* Changed from grid to flex for vertical alignment */
+    flex-direction: column; /* Align children vertically */
+    height: 20vh; /* Adjust height to fill the viewport */
+    width: 100%; /* Full width */
+  }
+  
+  .item {
+    background-color: #F4E0E1; /* Light pink color */
+    width: 100%; /* Full width */
+    height: 0; /* Start with zero height */
+    z-index: 0;
+    transition: height 0.85s ease-out; /* Transition for animation */
+  }
+  
+ 
   
  

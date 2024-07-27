@@ -35,12 +35,12 @@ function ServiceAnim1() {
             targets: 'section .item',
             height: '100%',
             backgroundColor: '#F6A9BD',
-            delay: anime.stagger(100)
+            // delay: anime.stagger(100)
           });
       
           tl.add({
             targets: 'section .item',
-            delay: anime.stagger(70),
+            // delay: anime.stagger(70),
             height: '97%',
             backgroundColor: '#F4E0E1'
           });
@@ -73,7 +73,7 @@ function ServiceAnim1() {
                 translateZ: 0,
                 easing: "easeOutExpo",
                 duration: 1350,
-                delay: (el, i) => 70 * i
+                // delay: (el, i) => 70 * i
               }, 1500);
           }
     };
@@ -82,8 +82,12 @@ function ServiceAnim1() {
 
     return (
         <div className="container2">
-            <h1 className="text-[#e35270] mb-12 text-6xl text2">01</h1>
+            <h1 className="text-[#e35270] mb-16 text-6xl text2">01</h1>
             <h1 className="text-[#e35270] my-4 text-3xl text-center effect2">Top-tier management agency elevating digital content creators</h1>
+
+            <section className='anim'>
+        {Array.from({ length: 10 }, (_, i) => <div className="item" key={i}></div>)}
+      </section>
         </div>
     );
 }

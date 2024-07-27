@@ -38,7 +38,7 @@ function ServiceAnim3() {
           targets: 'section .item',
           height: '100%',
           backgroundColor: '#F6A9BD',
-          delay: anime.stagger(100)
+          // delay: anime.stagger(100)
         });
     
         tl.add({
@@ -51,7 +51,7 @@ function ServiceAnim3() {
         tl.add({
           targets: 'section .item',
           backgroundColor: '#FFFFFF',
-          delay: anime.stagger(50, { from: 'center' })
+          // delay: anime.stagger(50, { from: 'center' })
         });
     
         // Correct animation for .text2 from below the initial visible area
@@ -76,8 +76,8 @@ function ServiceAnim3() {
               translateZ: 0,
               easing: "easeOutExpo",
               duration: 1350,
-              delay: (el, i) => 70 * i
-            }, 9000);
+              // delay: (el, i) => 70 * i
+            }, 1500);
         }
   };
 
@@ -85,11 +85,13 @@ function ServiceAnim3() {
     <div className="container4">
 
 
-      <h1 className="text-[#e35270] mb-12 text-6xl text4">03</h1>
+      <h1 className="text-[#e35270] mb-16 text-6xl text4">03</h1>
       <h1 className="text-[#e35270] my-4 text-3xl text-center effect4">Transforming creativity into exceptional success in the digital</h1>
 
 
-
+      <section className='anim'>
+        {Array.from({ length: 10 }, (_, i) => <div className="item" key={i}></div>)}
+      </section>
 
       
     </div>
