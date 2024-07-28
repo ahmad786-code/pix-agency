@@ -1,15 +1,16 @@
 import React from 'react'
 import logo from '../assests/logo.png';
- 
- 
+import Slice1 from '../assests/Slice1.png';
+
+
 import AnimatedComponent from './AnimatedComponent';
 
 import { Menu } from "lucide-react";
 
 const Header = () => {
     return (
-        <header className="header">
-
+        <header className="header relative">
+ 
             <nav className="navbar mb-12">
                 <div className="img-logo ">
                     <img src={logo} alt="logo" className="logo-img" />
@@ -27,11 +28,11 @@ const Header = () => {
 
                 </div>
             </nav>
+            <img src={Slice1} alt="" className=' right-0 absolute top-28 object-cover w-[100px] z-50' />
             <div className="w-screen ">
-            <AnimatedComponent />
+                <AnimatedComponent />
 
             </div>
-
 
         </header>
     )

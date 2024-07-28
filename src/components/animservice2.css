@@ -1,56 +1,98 @@
-.container3 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .effect3 {
-    position: absolute;
-    margin: 0;
-    top: 60%;
-    font-size: 2.3em;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    z-index: 3;
-    color: #e35270; /* Main pink color */
-  }
-  
-  .effect3 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
-  
-  .text3 {
-    position: absolute; /* Enable absolute positioning */
+ /* .container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.effect2 {
+  position: absolute;
+  margin: 0;
+  top: 60%;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  z-index: 3;
+  color: #e35270;  
+ 
+}
+
+ 
+
+.text2 {
+  position: absolute;  
   font-size: 1.8em;
   text-transform: uppercase;
-  color: #F0386B; /* Dark pink color */
+  color: #F0386B; 
   font-weight: 100;
-  bottom: 100%; /* Start from lower part of the container */
+  bottom: 3rem;
+  bottom: 100%;  
   z-index: 3;
-  opacity: 0; /* Start as invisible */
-  }
-  
- 
- 
- 
-   
-  .anim {
-    display: flex; /* Changed from grid to flex for vertical alignment */
-    flex-direction: column; /* Align children vertically */
-    height: 20vh; /* Adjust height to fill the viewport */
-    width: 100%; /* Full width */
-  }
-  
-  .item {
+  opacity: 0;  
+}
+
+.anim {
+  display: flex; 
+  flex-direction: column;  
+  height: 20vh;  
+  width: 100%;  
+}
+
+.item {
   background-color: #F4E0E1;   
-    width: 100%; /* Full width */
-    height: 100%; /* Start with zero height */
-    z-index: 0;
-    transition: height 0.85s ease-out; /* Transition for animation */
-  }
-  
- 
-  
- 
+  width: 100%;  
+  height: 100%;  
+  z-index: 0;
+  transition: height 0.85s ease-out; 
+} */
+
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.effect3 {
+  position: absolute;
+  margin: 0;
+  top: 60%;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  z-index: 3;
+  color: #e35270; /* Main pink color */
+}
+
+.effect3 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text3 {
+  position: absolute; /* Enable absolute positioning */
+font-size: 1.8em;
+text-transform: uppercase;
+color: #F0386B; /* Dark pink color */
+font-weight: 100;
+bottom: 3rem;
+bottom: 100%; /* Start from lower part of the container */
+z-index: 3;
+opacity: 0; /* Start as invisible */
+}
+
+
+.anim {
+  display: flex; /* Changed from grid to flex for vertical alignment */
+  flex-direction: column; /* Align children vertically */
+  height: 20vh; /* Adjust height to fill the viewport */
+  width: 100%; /* Full width */
+}
+
+.item {
+   background-color: #F4E0E1;   
+  width: 100%; /* Full width */
+  height: 100%; /* Start with zero height */
+  z-index: 0;
+  transition: height 0.85s ease-out; /* Transition for animation */
+}

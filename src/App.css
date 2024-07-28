@@ -31,13 +31,22 @@ body {
   
 }
 
-
+ 
+/* main {
+  background-image: url(../src/assests/bg2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
 main {
   background-image: url(../src/assests/bg2.jpeg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensures the main element is at least the height of the viewport */
 }
-
+ 
 /* utlity */
 a {
   text-decoration: none;
@@ -125,15 +134,12 @@ ul {
   color: var(--white-color);
   padding-bottom: 2rem;
 }
-
-.about {
-   
-}
+ 
 
 /* Contact Section */
 
 .contact-section {
-  padding: 7rem 3rem;
+  padding: 17rem 3rem;
   text-align: center;
 
 
