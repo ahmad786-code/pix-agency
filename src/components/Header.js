@@ -28,7 +28,7 @@ const Header = () => {
 
                 </div>
             </nav>
-            <img src={Slice1} alt="" className=' right-0 absolute top-28 object-cover w-[100px] z-50' />
+            <img src={Slice1} alt="" className=' left-[12rem] absolute top-[7rem] object-cover w-[100px]  z-[1]' />
             <div className="w-screen ">
                 <AnimatedComponent />
 

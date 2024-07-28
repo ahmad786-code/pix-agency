@@ -59,7 +59,7 @@ function AnimatedComponent() {
 
   return (
     <div className="container">
-      <h1 className="effect1">PIXI</h1>
+      <h1 className="effect1">PIXIE</h1>
        
       <section className='anim'>
         {Array.from({ length: 10 }, (_, i) => <div className="item" key={i}></div>)}

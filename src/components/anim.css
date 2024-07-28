@@ -5,14 +5,16 @@
   }
   
   .effect1 {
+    font-family: 'Pacifico', cursive;
     position: absolute;
     margin: 0;
-    top: 10%;
-    font-size: 3em;
+    top: 13%;
+    font-size: 5.5em;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     z-index: 3;
-    color: #e35270; /* Main pink color */
+    color: #ff5d8f; /* Main pink color */
   }
   
   .effect1 .letter {
