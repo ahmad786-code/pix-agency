@@ -62,12 +62,19 @@ ul {
   padding: 1rem 0rem;
   height: 100vh;
  
- 
+  z-index: 3;
   position: relative;
   overflow: hidden;
 }
 
- 
+ .header-heading {
+  font-family: 'Pacifico', cursive;
+  color: #ff5d8f;
+  font-size: 5.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+
+ }
 .navbar {
   display: flex;
   padding: 1rem 6rem;

@@ -28,11 +28,10 @@ const Header = () => {
 
                 </div>
             </nav>
-            <img src={Slice1} alt="" className=' left-[12rem] absolute top-[7rem] object-cover w-[100px]  z-[1]' />
-            <div className="w-screen ">
-                <AnimatedComponent />
-
-            </div>
+            <img src={Slice1} alt="" className=' left-[7rem] absolute top-[7rem] object-cover w-[100px]  -z-[3]' />
+           
+            <h1 className='header-heading text-center'>PIXIE</h1>
+            
 
         </header>
     )
